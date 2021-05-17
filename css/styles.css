@@ -1,0 +1,241 @@
+/* ------------- Cores Matheus --------------- */
+.visualizacao{
+    color: #cc942c;
+    color: #08456d;
+    color: black;
+    color: #337493;
+    color: #042948;
+    color: #346b8c;
+    color: #1b4454;
+    color: #041323;
+    color: #1c3b53;
+    color: #09242c;
+}
+
+/* ------------- Responsividade CSS --------------- */
+
+html{
+font-size: 1.2rem;
+}
+/* ------------------------------ MOBILE FIRSY ------------------------------------ */
+
+/* --------------------- CSS Geral ---------------------- */
+body{
+    color: black;
+    font-family:'Newsreader', serif;
+}
+header{
+    background-color: white;
+}
+nav{
+    box-shadow: 0px 5px 5px #042948;
+}
+.nav-link{
+    color: #042948;
+    font-weight: bold;
+}
+.div-h1{
+    background-image: url("../img/fundo4.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section{
+    margin: 2rem 0;
+}
+#botao-topo img{
+    width: 80px;
+    position: fixed;
+    bottom: 150px;
+    right: 1%;
+    opacity: 0.3; 
+}
+
+/* ------------- CSS Footer --------------- */
+footer{
+    background-color:#337493;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.div-logo-footer{
+    width: 60%;
+    margin: 0 auto;
+}
+.logo-footer{
+    width: 80%;
+    margin: auto auto;
+}
+.div-endereco-footer{
+    width: 100%;
+}
+.titulo-footer{
+    margin: 0;
+    color: #eeae37;
+}
+.div-redes{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.div-redes a{
+    width: 25%;
+    text-align: center;
+    margin: auto 1rem;
+}
+.redes-sociais{
+    width: 80%;
+}
+.whatsapp{
+    width: 4rem;
+    position: fixed;
+    top: 20%;
+    right: 1%;
+}
+.whatsapp img{
+    width: 100%
+}
+/* --------------------- CSS Index ---------------------- */
+#banner{
+    width: 100%;
+    background-image: url("../img/bg-azul.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-img{
+    width: 40%;
+}
+/* --------------------- CSS Sobre ---------------------- */
+#section-galeria{
+    width: 100%;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1c3b53;
+}
+/* ------------------ CSS Serviços ----------------- */
+.card-servicos{
+    cursor: pointer;
+}
+#list-tab .active{
+    background-color: #042948;
+}
+/* ------------------ CSS Lesões e Dúvidas ----------------- */
+#aside{
+    background-color:#1c3b53;
+}
+#menuAside ul li a{
+    color: white;
+    font-weight: bold;
+}
+.btn-block{
+    background-color: #cc942c;
+}
+/* --------------------- CSS Contato ---------------------- */
+#textarea-contato{
+    width: 60%;
+    margin: 0 auto;
+    height: 150px;
+    overflow: scroll;
+}
+.btn-enviar{
+    background-color: #042948;
+}
+#form-parceiros{
+    background-color: #cc942c;
+}
+.titulo-consultorio{
+    color: #042948;
+}
+iframe{
+    height: 400px;
+}
+/* ------------------------- Responsividade -------------------------- */
+@media (min-width: 576px){
+    .div-logo-footer{
+        width: 35%;
+        margin: 0 auto;
+    }
+    .div-redes{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+    }
+}
+@media (min-width: 768px){
+    html{
+        font-size: 1.3rem;
+    }
+    .nav-item .text-uppercase{
+        font-size: 0.5rem;
+    }
+    footer{
+        display: flex;
+        text-align: center;
+    }
+    address{
+        margin: 0 auto;
+    }
+    .div-logo-footer{
+        width: 30%;
+        margin: auto 0;
+    }
+    .div-endereco-footer{
+        width: 40%;
+        margin: auto 0;
+    }
+    .div-redes{
+        width: 30%;
+        text-align: right;
+        justify-content: flex-end;
+        margin: auto 0;
+    }
+    iframe{
+        height: 300px;
+    }
+    #section-galeria{
+        width: 75%;
+    }
+    #main-lesoes{
+        height: 504px;
+        overflow: scroll;
+    }
+    .card-servicos .card-body h5{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 992px){
+    .nav-item .text-uppercase{
+        font-size: 1rem;
+    }
+    .div-logo-footer{
+        width: 25%;
+    }
+    .div-endereco-footer{
+        width: 50%;
+    }
+    .div-redes{
+        width: 25%;
+    }
+    iframe{
+        height: 400px;
+    }
+    #section-galeria{
+        width: 50%;
+    }
+    #main-lesoes{
+        height: 480px;
+        overflow: scroll;
+    }
+    .card-servicos .card-body h5{
+        font-size: 1rem;
+    }
+}

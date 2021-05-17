@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Requisitos:
+    JQuery - Arquivo js.js - Linhas 1 a 29 
+    Javascript - Arquivo js.js - Linhas 30 a 61
+    CSS - Arquivo styles.css - Linhas 54 a 100 
+    HTML - Aside - Arquivo lesoes-e-duvidas.html - Linhas 54 a 91 
+    HTML - Article - Arquivo lesoes-e-duvidas.html -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fisioterapeuta Matheus Freire. Faça suas atividades com qualidade de vida e bons resultados, sem sentir dor na coluna e sem recorrer a medicação.">
+    <meta name="keywords" content="Fisioterapia, fisioterapeuta, coluna vertebral, costas, Matheus Freite, Matheus, Sobral, Ibiapina, médico">
+    <meta name="author" content="Marília Nunes Cortes da Silva">
+    <title>Matheus Freire</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo-coluna.png">
+    <link rel="stylesheet" type="text/css" href="css/css-bootstrap/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <header id="topo">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand col-6 col-sm-4 col-md-3" href="index.html"><img src="img/LOGO MATHEUS-min2.png" width="100%"></a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" 
+              data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" 
+              aria-label="Alterna navegação" style="background-color: #042948;">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-uppercase" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-uppercase" href="servicos.html">Serviços</a>
+                        </li>
+                        <li class="nav-item px-4 dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lesões e Dúvidas</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="lesoes-e-duvidas.html#lesoes">Lesões</a>
+                                <a class="dropdown-item" href="lesoes-e-duvidas.html#duvidas">Dúvidas</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-uppercase" href="contato.html">Contato</a>
+                      </li>
+                  </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="div-h1">
+                <h1 class="text-center"></h1>
+            </div>
+            <div id="banner" class="container">
+                <div class="row">
+                    <div class="banner-img col-12 col-md-4">
+                        <img src="img/matheus-sorrindo-semfundo.png" width="100%">
+                    </div>
+                    <div class="banner-texto col-12 col-md-6 text-center my-auto" style="color: white;">
+                        <h3 class="mt-3">Fisioterapeuta Matheus Freire</h3>
+                        <h5>Faça suas atividades com qualidade de vida e bons resultados, sem sentir dor na coluna e sem recorrer a medicação.</h5>
+                        <br/>
+                        <a class="btn btn-light btn-block bg-light mb-3 mt-2" role="button" href="https://api.whatsapp.com/send?phone=5588998014042" target="_blank">Marque já sua consulta!</a>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <h2 class="text-center">Os melhores tratamentos para o seu corpo</h2>
+                <div class="row mx-auto">
+                    <div id="card-pagina-osteopatia" class="card card-servicos col-10 col-sm-6 col-md m-md-2 mx-auto p-2">
+                        <img class="card-img-top" src="img/servicos/osteopatia.png" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Osteo<wbr>pa<wbr>tia</h5>
+                        </div>
+                    </div>
+                    <div id="card-pagina-quiropraxia" class="card card-servicos col-10 col-sm-6 col-md  m-md-2 mx-auto p-2">
+                        <img class="card-img-top" src="img/servicos/Quiropraxia.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Quiro<wbr>pra<wbr>xia</h5>
+                        </div>
+                    </div>
+                    <div id="card-pagina-tratamento" class="card card-servicos col-10 col-sm-6 col-md  m-md-2 mx-auto p-2">
+                        <img class="card-img-top" src="img/servicos/tratamento.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Trata<wbr>mento<br> da<wbr> Colu<wbr>na<br> Ver<wbr>te<wbr>bral</h5>
+                        </div>
+                    </div>
+                    <div id="card-pagina-manipulacao" class="card card-servicos col-10 col-sm-6 col-md  m-md-2 mx-auto p-2">
+                        <img class="card-img-top" src="img/servicos/manipulacao.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mani<wbr>pula<wbr>ção<br> de Teci<wbr>dos<br> Mo<wbr>les</h5>
+                        </div>
+                    </div>
+                    <div id="card-pagina-programa-terapeutico" class="card card-servicos col-10 col-sm-6 col-md  m-md-2 mx-auto p-2">
+                        <img class="card-img-top" src="img/servicos/preventivo.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Programa<br> Tera<wbr>pêu<wbr>tico<br> Pre<wbr>ven<wbr>tivo</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container row mx-auto">
+                <h3 class="text-center col-12 col-md-6 my-auto">Atendimento local em Ibiapina e domiciliar na região! <strong style="color: red;">Seguindo todos os protocolos de segurança e higiene da OMS.</strong></h3>
+                <iframe class="rounded col-12 col-md-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.484593520506!2d-40.89077458524041!3d-3.9198848971489166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x794c92f56f8391d%3A0x318e9e74a072f77!2sR.%20Cel.%20Wenceslau%20Soares%20-%20Centro%2C%20Ibiapina%20-%20CE%2C%2062360-000!5e0!3m2!1spt-BR!2sbr!4v1621113896700!5m2!1spt-BR!2sbr" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+            <section class="container">
+                <h3 class="text-center">Depoimentos</h3>
+                <div class="row mx-auto">
+                    <div class="col-10 mx-auto mt-2 col-md-6 col-lg">
+                        <img src="img/depoimentos/depoimento1.jpeg" width="100%" >
+                    </div>
+                    <div class="col-10 mx-auto mt-2 col-md-6 col-lg">
+                        <img src="img/depoimentos/depoimento2.jpeg" width="100%">
+                    </div>
+                    <div class="col-10 mx-auto mt-2 col-md-6 col-lg">
+                        <img src="img/depoimentos/depoimento3.jpeg" width="100%">
+                    </div>
+                    <div class="col-10 mx-auto mt-2 col-md-6 col-lg">
+                        <img src="img/depoimentos/depoimento4.jpeg" width="100%">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <a id="botao-topo" href="#topo"><img src="img/subir.png"></a>
+        <footer>
+            <a href="index.html" class="div-logo-footer">
+                <img class="logo-footer" src="img/LOGO MATHEUS-min2.png" alt="Logo Matheus Freire" />
+            </a>
+            <div class="div-endereco-footer">
+                <address style="color: white;">
+                    <h5 class="titulo-footer">Consultório Matheus Freire</h5>
+                    Rua Cel. Wenceslau Soares, Centro | Ibiapina - CE
+                    <br/>
+                    62360-000
+                    <br/>
+                    +55 (88) 9801-4042
+                </address>
+            </div>
+            <div class="div-redes">
+                <a  href="https://www.facebook.com/Matheus-Freire-113189996720479" target="_blank"><img class="redes-sociais" src="img/redes/cor-facebook.png" alt="Ícone Facebook" /></a>
+                <a  href="https://www.instagram.com/matheus.freirec/" target="_blank"><img class="redes-sociais" src="img/redes/cor-instagram.png" alt="Ícone Instagram" /></a>
+            </div>
+        </footer>
+        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5588998014042" target="_blank"><img src="img/redes/whatsapp.png" alt="Ícone WhatsApp"></a>
+    </div>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js-bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
